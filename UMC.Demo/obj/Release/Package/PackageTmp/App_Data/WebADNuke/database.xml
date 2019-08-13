@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webadnuke>
+  <providers provider="System">
+    <clear />
+    <!--<add name="defaultDbProvider"  type="UMC.Configuration.Sql.SqlDbProvider,UMC.Data" Prefix=""  conString="Data Source=(local);Initial Catalog=WebADNuke;Persist Security Info=True;User ID=sa;Password=sa;"/>-->
+    <!--此地为UMCDB的数据连接配置，UMC的DEMO采用的是文件性数据库，商用请换成服务器数据库-->
+    <add name="defaultDbProvider"  type="UMC.Demo.SQLiteProvider,UMC.Demo" />
+  </providers>
+</webadnuke>

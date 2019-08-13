@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webadnuke>
+  <providers provider="System">
+    <clear/>
+    <!--图片资源管理配置器，再测试之前，请注册开发者账户获取authkey,得到图片资源上传授权，此authkey只能作为开发者测试开发，如需商业运行请向我们联系，我们提供更高性能的管理存储-->
+
+    <add name="WebResource" type="UMC.Demo.WebResource,UMC.Demo" authkey="cdaf352e-a49a-4969-80b9-ebd3cb890b41"/>
+
+  </providers>
+</webadnuke>
