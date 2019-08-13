@@ -1,0 +1,9 @@
+C:\DOC\Static\WebADNuke.Data\bin\Debug\netstandard2.0\UMC.Data.deps.json
+C:\DOC\Static\WebADNuke.Data\bin\Debug\netstandard2.0\UMC.Data.dll
+C:\DOC\Static\WebADNuke.Data\bin\Debug\netstandard2.0\UMC.Data.pdb
+C:\DOC\Static\WebADNuke.Data\obj\Debug\netstandard2.0\UMC.Data.csproj.CoreCompileInputs.cache
+C:\DOC\Static\WebADNuke.Data\obj\Debug\netstandard2.0\UMC.Data.AssemblyInfoInputs.cache
+C:\DOC\Static\WebADNuke.Data\obj\Debug\netstandard2.0\UMC.Data.AssemblyInfo.cs
+C:\DOC\Static\WebADNuke.Data\obj\Debug\netstandard2.0\UMC.Data.dll
+C:\DOC\Static\WebADNuke.Data\obj\Debug\netstandard2.0\UMC.Data.pdb
+C:\DOC\Static\WebADNuke.Data\obj\Debug\netstandard2.0\UMC.Data.csprojResolveAssemblyReference.cache

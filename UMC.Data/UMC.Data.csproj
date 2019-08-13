@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>UMC.Data</RootNamespace>
+    <AssemblyName>UMC.Data</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Net\Hosting\**" />
+    <Compile Remove="Service\**" />
+    <Compile Remove="SharpZipLib\**" />
+    <EmbeddedResource Remove="Net\Hosting\**" />
+    <EmbeddedResource Remove="Service\**" />
+    <EmbeddedResource Remove="SharpZipLib\**" />
+    <None Remove="Net\Hosting\**" />
+    <None Remove="Service\**" />
+    <None Remove="SharpZipLib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configuration\GridHeader.cs" />
+    <Compile Remove="Configuration\OdbcDbProvider.cs" />
+    <Compile Remove="Configuration\OleDbProvider.cs" />
+    <Compile Remove="Configuration\ProviderConfigurationSection.cs" />
+    <Compile Remove="Configuration\SqlCommonProvider.cs" />
+    <Compile Remove="Configuration\WildcardManager.cs" />
+    <Compile Remove="Data\Entities\Log.cs" />
+    <Compile Remove="Net\FileMIMEHandler.cs" />
+    <Compile Remove="Net\IISService.cs" />
+    <Compile Remove="Net\MIMEMembership.cs" />
+    <Compile Remove="Net\MIMERequest.cs" />
+    <Compile Remove="Net\MIMEResponse.cs" />
+    <Compile Remove="Net\MIMEService.cs" />
+    <Compile Remove="Net\Push.cs" />
+    <Compile Remove="Net\PushHandler.cs" />
+    <Compile Remove="Sql\Comply\Deleter.cs" />
+    <Compile Remove="Sql\Comply\Null.cs" />
+    <Compile Remove="Sql\Comply\Selecter.cs" />
+    <Compile Remove="Sql\Comply\Updater.cs" />
+    <Compile Remove="Sql\IDeleter.cs" />
+    <Compile Remove="Sql\IQuery.cs" />
+    <Compile Remove="Sql\ISelecter.cs" />
+    <Compile Remove="Sql\IUpdater.cs" />
+    <Compile Remove="Web\WebActivity - 复制.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
